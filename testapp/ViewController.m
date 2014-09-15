@@ -29,6 +29,7 @@
 - (IBAction)addbuttonPressed:(id)sender {
     NSUInteger num3 = [Num1TextField.text integerValue] + [Num2TextField.text integerValue];
     Num3TextField.text = [NSString stringWithFormat:@"%lu",(unsigned long)num3];
+    NSLog(@"added a nslog for creatinga new branch in git");
 }
 
 @synthesize Num1TextField;
