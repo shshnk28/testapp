@@ -14,6 +14,12 @@
 		83ED1E2519C2D217003FF9B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ED1E2419C2D217003FF9B1 /* Images.xcassets */; };
 		83ED1E2819C2D217003FF9B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83ED1E2619C2D217003FF9B1 /* LaunchScreen.xib */; };
 		83ED1E3419C2D217003FF9B1 /* testappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ED1E3319C2D217003FF9B1 /* testappTests.m */; };
+		83ED212519C31891003FF9B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ED1E1F19C2D217003FF9B1 /* ViewController.m */; };
+		83ED212619C31891003FF9B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ED1E1C19C2D217003FF9B1 /* AppDelegate.m */; };
+		83ED212719C31891003FF9B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ED1E1919C2D217003FF9B1 /* main.m */; };
+		83ED212A19C31891003FF9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ED1E2119C2D217003FF9B1 /* Main.storyboard */; };
+		83ED212B19C31891003FF9B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83ED1E2619C2D217003FF9B1 /* LaunchScreen.xib */; };
+		83ED212C19C31891003FF9B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ED1E2419C2D217003FF9B1 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,8 @@
 		83ED1E2D19C2D217003FF9B1 /* testappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83ED1E3219C2D217003FF9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83ED1E3319C2D217003FF9B1 /* testappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testappTests.m; sourceTree = "<group>"; };
+		83ED213019C31891003FF9B1 /* testapp copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testapp copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83ED213119C31891003FF9B1 /* testapp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "testapp copy-Info.plist"; path = "/Users/shashanksekhar/xcode_projects/testapp/testapp copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83ED212819C31891003FF9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -66,6 +81,7 @@
 				83ED1E1619C2D217003FF9B1 /* testapp */,
 				83ED1E3019C2D217003FF9B1 /* testappTests */,
 				83ED1E1519C2D217003FF9B1 /* Products */,
+				83ED213119C31891003FF9B1 /* testapp copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +90,7 @@
 			children = (
 				83ED1E1419C2D217003FF9B1 /* testapp.app */,
 				83ED1E2D19C2D217003FF9B1 /* testappTests.xctest */,
+				83ED213019C31891003FF9B1 /* testapp copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,6 +174,23 @@
 			productReference = 83ED1E2D19C2D217003FF9B1 /* testappTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		83ED212319C31891003FF9B1 /* testapp copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83ED212D19C31891003FF9B1 /* Build configuration list for PBXNativeTarget "testapp copy" */;
+			buildPhases = (
+				83ED212419C31891003FF9B1 /* Sources */,
+				83ED212819C31891003FF9B1 /* Frameworks */,
+				83ED212919C31891003FF9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "testapp copy";
+			productName = testapp;
+			productReference = 83ED213019C31891003FF9B1 /* testapp copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,6 +224,7 @@
 			targets = (
 				83ED1E1319C2D217003FF9B1 /* testapp */,
 				83ED1E2C19C2D217003FF9B1 /* testappTests */,
+				83ED212319C31891003FF9B1 /* testapp copy */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +247,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		83ED212919C31891003FF9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ED212A19C31891003FF9B1 /* Main.storyboard in Resources */,
+				83ED212B19C31891003FF9B1 /* LaunchScreen.xib in Resources */,
+				83ED212C19C31891003FF9B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -230,6 +275,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				83ED1E3419C2D217003FF9B1 /* testappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ED212419C31891003FF9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83ED212519C31891003FF9B1 /* ViewController.m in Sources */,
+				83ED212619C31891003FF9B1 /* AppDelegate.m in Sources */,
+				83ED212719C31891003FF9B1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +450,26 @@
 			};
 			name = Release;
 		};
+		83ED212E19C31891003FF9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "testapp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "testapp copy";
+			};
+			name = Debug;
+		};
+		83ED212F19C31891003FF9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "testapp copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "testapp copy";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -422,6 +497,15 @@
 				83ED1E3C19C2D217003FF9B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+		};
+		83ED212D19C31891003FF9B1 /* Build configuration list for PBXNativeTarget "testapp copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83ED212E19C31891003FF9B1 /* Debug */,
+				83ED212F19C31891003FF9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

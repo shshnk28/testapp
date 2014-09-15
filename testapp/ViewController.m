@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"hello signeasy");
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,4 +25,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)addbuttonPressed:(id)sender {
+    NSUInteger num3 = [Num1TextField.text integerValue] + [Num2TextField.text integerValue];
+    Num3TextField.text = [NSString stringWithFormat:@"%lu",(unsigned long)num3];
+}
+
+@synthesize Num1TextField;
+@synthesize Num2TextField;
+@synthesize Num3TextField;
+@synthesize Addbutton;
 @end

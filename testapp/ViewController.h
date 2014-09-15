@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *Addbutton;
+@property (weak, nonatomic) IBOutlet UITextField *Num1TextField;
+@property (weak, nonatomic) IBOutlet UITextField *Num2TextField;
+@property (weak, nonatomic) IBOutlet UITextField *Num3TextField;
 
 
 @end
